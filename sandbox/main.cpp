@@ -6,9 +6,22 @@
 //
 
 #include <iostream>
+using namespace std;
 
-int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
+double mult(double x, double y) {
+    return x * y;
+}
+
+void newLine() {
+    cout << endl;
+}
+
+void multiNewLine(int n) {
+    for (int i = 0; i < n; i++) {
+        newLine();
+    }
+}
+
+int main() {
     return 0;
 }
