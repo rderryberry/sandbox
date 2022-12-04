@@ -7,10 +7,9 @@
 
 #include <iostream>
 #include "newlines.hpp"
-using namespace std;
 
 void newLine() {
-    cout << endl;
+    std::cout << std::endl;
 }
 
 void multiNewLine(int n) {
