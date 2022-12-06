@@ -5,8 +5,8 @@
 //  Created by Richard Derryberry on 12/3/22.
 //
 
+#include "newlines.h"
 #include <iostream>
-#include "newlines.hpp"
 
 void newLine() {
     std::cout << std::endl;
