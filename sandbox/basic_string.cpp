@@ -6,6 +6,7 @@
 //
 
 #include "basic_string.h"
+#include <ctype.h>
 #include <iostream>
 #include <string>
 
@@ -61,4 +62,20 @@ void find_in_word(std::string word) {
         << find_res << ".\n";
     }
     
+}
+
+void string_to_upper(std::string& word)
+{
+    for (int i = 0; i < word.length(); i++)
+    {
+        word[i] = toupper(word[i]);
+    }
+}
+
+void string_to_lower(std::string& word)
+{
+    for (int i = 0; i < word.length(); i++)
+    {
+        word[i] = tolower(word[i]);
+    }
 }
