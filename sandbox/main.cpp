@@ -43,7 +43,6 @@ int main() {
     std::string greeting {"Beginning sandbox program.\n\n"};
     std::cout << greeting;
 
-    
     std::string word{};
     word = getStringFromUser();
     string_to_upper(word);
@@ -51,6 +50,7 @@ int main() {
     string_to_lower(word);
     std::cout << word << '\n';
     
+    display_d_o_h();
     
     return EXIT_SUCCESS;
 }

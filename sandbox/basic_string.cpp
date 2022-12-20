@@ -79,3 +79,14 @@ void string_to_lower(std::string& word)
         word[i] = tolower(word[i]);
     }
 }
+
+void display_d_o_h()
+{
+    std::cout << "Enter integer: ";
+    int input {};
+    std::cin >> input;
+    std::cout << "\tDecimal rep:\t\t" << input << '\n';
+    std::cout << "\tOctal rep:\t\t\t" << std::oct << input << '\n';
+    std::cout << "\tHexadecimal rep:\t" << std::hex << input << '\n';
+    std::cout << std::dec << '\n';
+}

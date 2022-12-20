@@ -21,5 +21,7 @@ int count_char(std::string s, char c);
 void string_to_upper(std::string& word);
 void string_to_lower(std::string& word);
 
+void display_d_o_h();
+
 #endif /* basic_string_h */
 
